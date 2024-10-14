@@ -21,11 +21,59 @@ ul {
   padding: 0 10px;
 }
 
-main {
+/* main {
   height: 100vh;
-}
+} */
 
 footer {
   display: flex;
   justify-content: center;
+}
+
+.firstSection {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1728716858431-001a104dd639?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstSection > h1 {
+  width: 300px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  opacity: 0.7;
+}
+
+.secondSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 500px;
+  border: 2px solid black;
+  display: flex;
+}
+
+.cardText {
+  width: 70%;
+  padding: 10px;
+}
+
+.cardImg {
+  width: 30%;
+}
+
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
